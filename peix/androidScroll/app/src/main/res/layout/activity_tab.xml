@@ -9,19 +9,35 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/btn_1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="VIEW 1"/>
+            android:text="VIEW 1"
+            android:onClick="onClick"/>
         <Button
+            android:id="@+id/btn_2"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="VIEW 2"/>
+            android:text="VIEW 2"
+            android:onClick="onClick"/>
         <Button
+            android:id="@+id/btn_3"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="VIEW 3"/>
+            android:text="VIEW 3"
+            android:onClick="onClick"/>
     </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<fragment-->
+            <!--android:id="@+id/fragment_1"-->
+            <!--android:name="org.freeworkshop.androidscroll.fragement.Fragement1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+    </FrameLayout>
 </LinearLayout>
